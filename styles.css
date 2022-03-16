@@ -1,7 +1,13 @@
 @font-face {
   font-family: discord;
-  src: url('../discordFont.otf');
+  src: url('/discordFont.otf');
 }
+
+/*
+body:hover {
+    cursor: crosshair;
+}
+*/
 
 .join {
     font-family: discord;
@@ -14,6 +20,7 @@
 .join:hover {
     color:aqua;
     text-shadow: 0em 0em 0.7em aqua;
+    cursor: crosshair;
 }
 
 #tribegif {
